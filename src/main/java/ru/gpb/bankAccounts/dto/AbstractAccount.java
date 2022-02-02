@@ -11,4 +11,5 @@ public abstract class AbstractAccount {
     private BigDecimal balance;
     private List<Operation> history;
     private Long historyId;
+    private Boolean isFreezed;
 }
