@@ -1,4 +1,4 @@
-package ru.gpb.bankAccounts.controllers;
+package ru.gpb.bank.accounts.controllers;
 
 
 

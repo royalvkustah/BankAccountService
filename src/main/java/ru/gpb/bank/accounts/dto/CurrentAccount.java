@@ -1,4 +1,4 @@
-package ru.gpb.bankAccounts.dto;
+package ru.gpb.bank.accounts.dto;
 
 import lombok.Data;
 

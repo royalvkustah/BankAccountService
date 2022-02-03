@@ -1,9 +1,12 @@
-package ru.gpb.bankAccounts.dto;
+package ru.gpb.bank.accounts.dto;
+
+import lombok.Data;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.List;
 
+@Data
 public abstract class AbstractAccount {
     private BigInteger accountNumber;
     private Long clientId;
@@ -11,5 +14,5 @@ public abstract class AbstractAccount {
     private BigDecimal balance;
     private List<Operation> history;
     private Long historyId;
-    private Boolean isFreezed;
+    private Boolean isFrozen;
 }
